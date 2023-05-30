@@ -25,4 +25,4 @@ Logger.log('Hello World'); // will not put the time stamp in the log file.
 
 This class uses static methods so you do not need to instantiate it.
 
-This module is OS agnostic and will work on Windows, Mac, and Linux.
+This module is OS-agnostic and will work on Windows, Mac, and Linux.
