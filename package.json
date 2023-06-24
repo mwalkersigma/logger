@@ -1,5 +1,5 @@
 {
-  "name": "logger",
+  "name": "sigma-logger",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,6 +9,9 @@
     "start": "node main.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "publishConfig": {
+    "@mwalkersigma:registry": "https://npm.pkg.github.com"
+  },
+  "author": "Michael Walker",
+  "license": "MIT"
 }
