@@ -13,7 +13,7 @@ function findRootFolder () {
     while(!found){
         let files = fs.readdirSync(currentDir);
         let folder = currentDir.split("/").at(-1)
-        if(files.includes("package.json") && folder !== "sigma-logger"){
+        if(files.includes("package.json") && !folder.includes("sigma-logger")){
             found = true;
         } else {
             currentDir = path.join(currentDir,"..");
